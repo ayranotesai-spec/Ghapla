@@ -1,0 +1,2145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Ghapla — The Internet's Most Unhinged Website 🫠</title>
+
+  <!-- ═══════════════════════════════════════════
+       SEO META TAGS
+  ═══════════════════════════════════════════ -->
+  <meta name="description" content="Ghapla.in — The internet's most chaotic, meme-worthy, absolutely pointless website. Check your aura, start your villain arc, get roasted by AI, find your NPC type. What even is this." />
+  <meta name="keywords" content="ghapla, aura calculator, villain arc, main character test, red flag calculator, funny website, chronically online, npc test, ai roast, weird website, viral" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ghapla.in/" />
+  <meta name="author" content="Ghapla.in" />
+  <meta name="theme-color" content="#0D0D0D" />
+
+  <!-- ═══════════════════════════════════════════
+       OPEN GRAPH (WhatsApp / Facebook / Instagram)
+  ═══════════════════════════════════════════ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ghapla.in/" />
+  <meta property="og:title" content="Ghapla — The Internet's Most Unhinged Website 🫠" />
+  <meta property="og:description" content="Check your aura, start your villain arc, find out which NPC you are, get roasted by AI. What even is this website. Open at your own risk." />
+  <meta property="og:image" content="https://ghapla.in/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Ghapla — The Internet's Most Unhinged Website" />
+  <meta property="og:locale" content="en" />
+  <meta property="og:site_name" content="Ghapla.in" />
+
+  <!-- ═══════════════════════════════════════════
+       TWITTER / X CARD
+  ═══════════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@GhaplaDotIn" />
+  <meta name="twitter:title" content="Ghapla — The Internet's Most Unhinged Website 🫠" />
+  <meta name="twitter:description" content="Aura scores. Villain arcs. AI roasts. NPC types. What even is this. ghapla.in" />
+  <meta name="twitter:image" content="https://ghapla.in/og-image.jpg" />
+
+  <!-- ═══════════════════════════════════════════
+       FAVICON (emoji-based, no file needed)
+  ═══════════════════════════════════════════ -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫠</text></svg>" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫠</text></svg>" />
+
+  <!-- ═══════════════════════════════════════════
+       GOOGLE FONTS
+  ═══════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- ═══════════════════════════════════════════
+       GOOGLE ADSENSE
+       👉 PASTE YOUR PUBLISHER ID BELOW
+       Replace ca-pub-XXXXXXXXXXXXXXXX with yours
+       Then remove the comment markers (the < !-- and -- > around it)
+  ═══════════════════════════════════════════ -->
+  <!-- GOOGLE ADSENSE — ACTIVE -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9162192494290934" crossorigin="anonymous"></script>
+
+  <!-- ═══════════════════════════════════════════
+       GOOGLE ANALYTICS
+       👉 ADD YOUR MEASUREMENT ID BELOW WHEN READY
+       Replace G-XXXXXXXXXX with yours
+       Then remove the comment markers
+  ═══════════════════════════════════════════ -->
+  <!-- GOOGLE ANALYTICS — ACTIVE -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMYGWCHKSY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XMYGWCHKSY');
+  </script>
+
+  <style>
+    /* ═══════════════════════════════
+       DESIGN SYSTEM — GHAPLA
+       Aesthetic: Maximalist Brutalist
+       Dark base + electric yellow + hot green
+       Feels like a government notice board 
+       that got hacked by Gen Z
+    ═══════════════════════════════ */
+    :root {
+      --black:      #0D0D0D;
+      --dark:       #141414;
+      --panel:      #1A1A1A;
+      --border:     #2A2A2A;
+      --yellow:     #FFE500;
+      --yellow-dim: #CDB800;
+      --green:      #00FF87;
+      --red:        #FF3B3B;
+      --white:      #F5F5F5;
+      --muted:      rgba(245,245,245,0.4);
+      --font-display: 'Bebas Neue', cursive;
+      --font-body:    'Nunito', sans-serif;
+      --font-mono:    'JetBrains Mono', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: var(--font-body);
+      overflow-x: hidden;
+      cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='28' font-size='26'>🫠</text></svg>") 16 16, auto;
+    }
+
+    /* Grain overlay */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='0.035'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.4;
+    }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--black); }
+    ::-webkit-scrollbar-thumb { background: var(--yellow); }
+
+    /* ─── UTILITY ─── */
+    .y { color: var(--yellow); }
+    .g { color: var(--green); }
+    .r { color: var(--red); }
+    .m { color: var(--muted); }
+
+    /* ─── TICKER ─── */
+    .ticker {
+      background: var(--yellow);
+      color: var(--black);
+      padding: 7px 0;
+      overflow: hidden;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      white-space: nowrap;
+    }
+    .ticker-track {
+      display: inline-block;
+      animation: tickRoll 25s linear infinite;
+    }
+    @keyframes tickRoll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .tick-sep { margin: 0 20px; opacity: 0.4; }
+
+    /* ─── NAV ─── */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 29px;
+      z-index: 999;
+      background: rgba(13,13,13,0.96);
+      backdrop-filter: blur(12px);
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 34px;
+      color: var(--yellow);
+      text-decoration: none;
+      letter-spacing: 3px;
+      line-height: 1;
+      position: relative;
+    }
+    .nav-logo::after {
+      content: '.in';
+      font-size: 14px;
+      color: var(--green);
+      vertical-align: super;
+      letter-spacing: 1px;
+    }
+    .nav-right { display: flex; align-items: center; gap: 8px; }
+    .nav-pill {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 800;
+      padding: 6px 14px;
+      border-radius: 100px;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+    }
+    .nav-pill:hover { border-color: var(--yellow); color: var(--yellow); }
+    .nav-pill.active {
+      background: var(--yellow);
+      border-color: var(--yellow);
+      color: var(--black);
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: 92vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px 40px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .hero-grid-bg {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,229,0,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,229,0,0.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+    }
+    .hero-glow {
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,229,0,0.08) 0%, transparent 70%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      animation: glowPulse 4s ease-in-out infinite;
+    }
+    @keyframes glowPulse {
+      0%,100% { opacity: 0.6; transform: translate(-50%,-50%) scale(1); }
+      50%      { opacity: 1;   transform: translate(-50%,-50%) scale(1.1); }
+    }
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 6px 16px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 28px;
+      animation: fadeUp 0.6s ease both;
+    }
+    .hero-tag span { width: 6px; height: 6px; border-radius: 50%; background: var(--green); display: inline-block; animation: dotBlink 1.2s ease-in-out infinite; }
+    @keyframes dotBlink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(80px, 20vw, 180px);
+      line-height: 0.9;
+      letter-spacing: 8px;
+      color: var(--white);
+      margin-bottom: 0;
+      animation: fadeUp 0.6s 0.1s ease both;
+      position: relative;
+    }
+    .hero-title-yellow { color: var(--yellow); display: block; }
+    .hero-sub {
+      font-size: clamp(15px, 3vw, 20px);
+      color: var(--muted);
+      max-width: 520px;
+      line-height: 1.6;
+      margin: 20px auto 36px;
+      font-weight: 700;
+      animation: fadeUp 0.6s 0.2s ease both;
+    }
+    .hero-sub strong { color: var(--white); }
+    .hero-ctas {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      animation: fadeUp 0.6s 0.3s ease both;
+    }
+    .btn-primary {
+      background: var(--yellow);
+      color: var(--black);
+      font-family: var(--font-body);
+      font-weight: 900;
+      font-size: 15px;
+      padding: 14px 32px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.5px;
+      animation: btnPop 2s ease-in-out infinite;
+    }
+    @keyframes btnPop {
+      0%,100% { box-shadow: 0 0 0 0 rgba(255,229,0,0.3); }
+      50%      { box-shadow: 0 0 0 12px rgba(255,229,0,0); }
+    }
+    .btn-primary:hover { transform: translateY(-2px) scale(1.02); }
+    .btn-secondary {
+      background: transparent;
+      color: var(--white);
+      font-family: var(--font-body);
+      font-weight: 800;
+      font-size: 15px;
+      padding: 14px 32px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-secondary:hover { border-color: var(--yellow); color: var(--yellow); }
+
+    .hero-stats {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 1px solid var(--border);
+      width: 100%;
+      max-width: 700px;
+      animation: fadeUp 0.6s 0.4s ease both;
+    }
+    .hstat { text-align: center; }
+    .hstat-num {
+      font-family: var(--font-display);
+      font-size: 42px;
+      color: var(--yellow);
+      letter-spacing: 2px;
+      line-height: 1;
+    }
+    .hstat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 4px; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ─── SECTION WRAPPER ─── */
+    .section {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 60px 20px 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .section-head { margin-bottom: 32px; }
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--green);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(36px, 7vw, 64px);
+      letter-spacing: 3px;
+      line-height: 1;
+      color: var(--white);
+    }
+    .section-title .y { color: var(--yellow); }
+    .section-desc { font-size: 14px; color: var(--muted); margin-top: 8px; font-weight: 700; }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 20px 0;
+    }
+
+    /* ─── AD SLOTS ─── */
+    .ad-slot {
+      background: var(--panel);
+      border: 1px dashed var(--border);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: rgba(255,255,255,0.12);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 28px auto;
+      position: relative;
+      z-index: 1;
+    }
+    .ad-leaderboard  { max-width: 728px; height: 90px; }
+    .ad-rectangle    { max-width: 300px; height: 250px; }
+    .ad-large-rect   { max-width: 336px; height: 280px; }
+    .ad-banner       { max-width: 468px; height: 60px; }
+    .ad-sticky {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      height: 60px;
+      background: rgba(13,13,13,0.98);
+      border-top: 1px solid var(--border);
+      z-index: 997;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: rgba(255,255,255,0.12);
+      letter-spacing: 1px;
+    }
+    .ad-sticky-close {
+      position: absolute;
+      right: 12px;
+      background: var(--border);
+      border: none;
+      color: var(--muted);
+      width: 22px; height: 22px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    /* ─── TOOLS GRID ─── */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 2px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .tool-tile {
+      background: var(--panel);
+      padding: 22px 18px;
+      cursor: pointer;
+      transition: background 0.15s;
+      position: relative;
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .tool-tile:hover { background: #222; }
+    .tool-tile:hover .tool-arrow { opacity: 1; transform: translate(0,0); }
+    .tool-badge-hot {
+      position: absolute;
+      top: 10px; right: 10px;
+      background: var(--red);
+      color: white;
+      font-size: 9px;
+      font-weight: 900;
+      padding: 2px 7px;
+      border-radius: 3px;
+      letter-spacing: 1px;
+    }
+    .tool-badge-new {
+      position: absolute;
+      top: 10px; right: 10px;
+      background: var(--green);
+      color: var(--black);
+      font-size: 9px;
+      font-weight: 900;
+      padding: 2px 7px;
+      border-radius: 3px;
+      letter-spacing: 1px;
+    }
+    .tool-icon { font-size: 32px; margin-bottom: 12px; display: block; }
+    .tool-name { font-size: 14px; font-weight: 900; color: var(--white); margin-bottom: 5px; }
+    .tool-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
+    .tool-arrow {
+      position: absolute;
+      bottom: 14px; right: 14px;
+      color: var(--yellow);
+      font-size: 18px;
+      opacity: 0;
+      transform: translate(-4px, 4px);
+      transition: all 0.15s;
+    }
+
+    /* ─── LIVE COUNTERS ─── */
+    .counters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px;
+    }
+    .counter-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .counter-card:hover { border-color: rgba(255,229,0,0.3); }
+    .counter-num {
+      font-family: var(--font-display);
+      font-size: 38px;
+      color: var(--yellow);
+      letter-spacing: 2px;
+      line-height: 1;
+    }
+    .counter-label { font-size: 12px; color: var(--muted); margin-top: 6px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+    .counter-dot {
+      display: inline-block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      margin-right: 6px;
+      animation: dotBlink 1s ease-in-out infinite;
+    }
+
+    /* ─── HOROSCOPE ─── */
+    .horo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 10px;
+    }
+    .horo-tile {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 10px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .horo-tile:hover {
+      border-color: var(--yellow);
+      background: rgba(255,229,0,0.05);
+      transform: translateY(-2px);
+    }
+    .horo-symbol { font-size: 28px; margin-bottom: 8px; }
+    .horo-name { font-size: 12px; font-weight: 900; color: var(--white); }
+    .horo-dates { font-size: 10px; color: var(--muted); margin-top: 3px; }
+
+    /* ─── LEADERBOARD ─── */
+    .lb {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .lb-header {
+      display: grid;
+      grid-template-columns: 52px 1fr auto;
+      padding: 12px 18px;
+      background: rgba(255,229,0,0.06);
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--yellow);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border);
+    }
+    .lb-row {
+      display: grid;
+      grid-template-columns: 52px 1fr auto;
+      align-items: center;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.12s;
+      gap: 12px;
+    }
+    .lb-row:last-child { border-bottom: none; }
+    .lb-row:hover { background: rgba(255,255,255,0.03); }
+    .lb-num {
+      font-family: var(--font-display);
+      font-size: 26px;
+      color: var(--muted);
+      letter-spacing: 1px;
+    }
+    .lb-num.first { color: var(--yellow); }
+    .lb-num.second { color: #C0C0C0; }
+    .lb-num.third { color: #CD7F32; }
+    .lb-info { display: flex; flex-direction: column; gap: 2px; }
+    .lb-person { font-size: 14px; font-weight: 900; }
+    .lb-sub { font-size: 11px; color: var(--muted); }
+    .lb-score {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--green);
+      text-align: right;
+    }
+
+    /* ─── CHAOS FEED ─── */
+    .feed { display: flex; flex-direction: column; gap: 2px; }
+    .feed-item {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      cursor: pointer;
+      transition: all 0.12s;
+      position: relative;
+      overflow: hidden;
+    }
+    .feed-item:hover { border-color: rgba(255,229,0,0.3); }
+    .feed-item::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: var(--yellow);
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+    .feed-item:hover::before { opacity: 1; }
+    .feed-tag {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 3px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .feed-tag.breaking { background: rgba(255,59,59,0.15); color: var(--red); }
+    .feed-tag.viral    { background: rgba(255,229,0,0.12); color: var(--yellow); }
+    .feed-tag.culture  { background: rgba(0,255,135,0.12); color: var(--green); }
+    .feed-tag.scam     { background: rgba(255,59,59,0.15); color: var(--red); }
+    .feed-tag.study    { background: rgba(255,229,0,0.12); color: var(--yellow); }
+    .feed-tag.tech     { background: rgba(0,255,135,0.12); color: var(--green); }
+    .feed-body { flex: 1; }
+    .feed-title { font-size: 15px; font-weight: 800; line-height: 1.4; margin-bottom: 8px; }
+    .feed-meta { display: flex; gap: 14px; font-size: 11px; color: var(--muted); font-family: var(--font-mono); }
+    .feed-share {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 11px;
+      padding: 5px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: var(--font-body);
+      font-weight: 800;
+      transition: all 0.12s;
+      align-self: flex-start;
+    }
+    .feed-share:hover { border-color: var(--yellow); color: var(--yellow); }
+
+    /* ─── SHARE SECTION ─── */
+    .share-box {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 40px 28px;
+      text-align: center;
+    }
+    .share-title {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 6vw, 56px);
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+    .share-desc { font-size: 14px; color: var(--muted); margin-bottom: 28px; font-weight: 700; }
+    .share-btns {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .sbtn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 22px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--white);
+      font-family: var(--font-body);
+      font-weight: 800;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .sbtn:hover { transform: translateY(-2px); }
+    .sbtn.wa  { border-color: #25D366; color: #25D366; }
+    .sbtn.wa:hover  { background: rgba(37,211,102,0.1); }
+    .sbtn.tw  { border-color: #1DA1F2; color: #1DA1F2; }
+    .sbtn.tw:hover  { background: rgba(29,161,242,0.1); }
+    .sbtn.ig  { border-color: #E1306C; color: #E1306C; }
+    .sbtn.ig:hover  { background: rgba(225,48,108,0.1); }
+    .sbtn.cp  { border-color: var(--border); }
+    .sbtn.cp:hover  { border-color: var(--yellow); color: var(--yellow); }
+
+    /* ─── MODAL ─── */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 5000;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      backdrop-filter: blur(8px);
+    }
+    .overlay.open { display: flex; }
+    .modal {
+      background: var(--dark);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px 26px 28px;
+      max-width: 460px;
+      width: 100%;
+      position: relative;
+      animation: modalIn 0.28s cubic-bezier(0.34,1.56,0.64,1) both;
+    }
+    @keyframes modalIn {
+      from { transform: scale(0.88) translateY(16px); opacity: 0; }
+      to   { transform: scale(1) translateY(0); opacity: 1; }
+    }
+    .modal-x {
+      position: absolute;
+      top: 14px; right: 16px;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 18px;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .modal-label { font-family: var(--font-mono); font-size: 10px; color: var(--green); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+    .modal-title { font-family: var(--font-display); font-size: 32px; letter-spacing: 2px; color: var(--white); margin-bottom: 4px; }
+    .modal-sub { font-size: 13px; color: var(--muted); font-weight: 700; margin-bottom: 22px; line-height: 1.5; }
+    .modal-inp {
+      width: 100%;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--white);
+      padding: 12px 14px;
+      font-size: 15px;
+      font-family: var(--font-body);
+      font-weight: 700;
+      margin-bottom: 12px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .modal-inp:focus { border-color: var(--yellow); }
+    .modal-inp::placeholder { color: rgba(255,255,255,0.2); }
+    .modal-go {
+      width: 100%;
+      background: var(--yellow);
+      border: none;
+      color: var(--black);
+      font-family: var(--font-body);
+      font-weight: 900;
+      font-size: 16px;
+      padding: 13px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.5px;
+    }
+    .modal-go:hover { transform: scale(1.01); }
+    .modal-go:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+    /* Fake progress bar */
+    .prog-wrap {
+      height: 3px;
+      background: var(--border);
+      border-radius: 2px;
+      margin: 14px 0;
+      display: none;
+      overflow: hidden;
+    }
+    .prog-wrap.show { display: block; }
+    .prog-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--yellow), var(--green));
+      border-radius: 2px;
+      width: 0;
+      transition: width 0.06s linear;
+    }
+
+    /* Result */
+    .modal-result {
+      display: none;
+      margin-top: 18px;
+      background: var(--panel);
+      border: 1px solid rgba(255,229,0,0.2);
+      border-radius: 8px;
+      padding: 18px 16px;
+      animation: fadeUp 0.3s ease both;
+    }
+    .modal-result.show { display: block; }
+    .result-headline {
+      font-family: var(--font-display);
+      font-size: 30px;
+      color: var(--yellow);
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      line-height: 1.1;
+    }
+    .result-body { font-size: 13px; color: var(--white); line-height: 1.7; font-weight: 700; }
+    .result-actions { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+    .ract {
+      flex: 1;
+      min-width: 80px;
+      padding: 8px 10px;
+      border-radius: 5px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.12s;
+      text-align: center;
+    }
+    .ract:hover { border-color: var(--yellow); color: var(--yellow); }
+    .ract.wa { border-color: #25D366; color: #25D366; }
+    .ract.wa:hover { background: rgba(37,211,102,0.1); }
+
+    /* ─── ACHIEVEMENT TOAST ─── */
+    .toast {
+      position: fixed;
+      bottom: 76px;
+      right: 16px;
+      background: var(--dark);
+      border: 1px solid var(--yellow);
+      border-radius: 8px;
+      padding: 14px 18px 14px 14px;
+      z-index: 4000;
+      max-width: 260px;
+      width: 260px;
+      transform: translateX(calc(100% + 32px));
+      transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1);
+      pointer-events: none;
+      will-change: transform;
+    }
+    .toast.show { transform: translateX(0); }
+    .toast-label { font-family: var(--font-mono); font-size: 9px; color: var(--yellow); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 4px; }
+    .toast-title { font-size: 14px; font-weight: 900; color: var(--white); }
+    .toast-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+    /* ─── EMOJI RAIN ─── */
+    #rain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 3000;
+      overflow: hidden;
+    }
+    .drop {
+      position: absolute;
+      top: -50px;
+      font-size: 26px;
+      animation: dropFall linear forwards;
+      pointer-events: none;
+      user-select: none;
+    }
+    @keyframes dropFall {
+      to { transform: translateY(110vh) rotate(540deg); opacity: 0; }
+    }
+
+    /* ─── SCAM NOTICE ─── */
+    .scam-notice {
+      background: rgba(255,59,59,0.06);
+      border: 1px solid rgba(255,59,59,0.25);
+      border-radius: 8px;
+      padding: 20px 18px;
+      font-size: 13px;
+      line-height: 1.8;
+      font-weight: 700;
+    }
+    .scam-notice .sh { color: var(--red); font-weight: 900; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      margin-top: 60px;
+      border-top: 1px solid var(--border);
+      padding: 32px 20px 80px;
+      text-align: center;
+    }
+    .footer-logo { font-family: var(--font-display); font-size: 42px; color: var(--yellow); letter-spacing: 4px; margin-bottom: 8px; }
+    .footer-tagline { font-size: 12px; color: var(--muted); margin-bottom: 20px; font-weight: 700; }
+    .footer-links { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 12px; transition: color 0.12s; font-weight: 700; }
+    .footer-links a:hover { color: var(--yellow); }
+    .footer-copy { font-size: 11px; color: rgba(255,255,255,0.15); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 640px) {
+      .tools-grid { grid-template-columns: repeat(2, 1fr); }
+      .horo-grid { grid-template-columns: repeat(4, 1fr); }
+      nav .nav-right { display: none; }
+      .hero-stats { gap: 24px; }
+      .lb-header, .lb-row { grid-template-columns: 42px 1fr auto; padding: 12px 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- EMOJI RAIN LAYER -->
+<div id="rain"></div>
+
+<!-- ACHIEVEMENT TOAST -->
+<div class="toast" id="toast">
+  <div class="toast-label">🏆 Achievement Unlocked</div>
+  <div class="toast-title" id="toastTitle">Ghapla Expert</div>
+  <div class="toast-sub" id="toastSub">You're doing something.</div>
+</div>
+
+<!-- TICKER -->
+<div class="ticker">
+  <span class="ticker-track">
+    BREAKING: Person who "just needs 5 minutes" has been gone for 3 hours
+    <span class="tick-sep">|</span>
+    Scientists confirm: you ARE the problem, but so is everyone else
+    <span class="tick-sep">|</span>
+    Mercury retrograde blamed for bad vibes, missed deadlines, and Tuesday
+    <span class="tick-sep">|</span>
+    Man finishes entire Netflix series, immediately starts it again
+    <span class="tick-sep">|</span>
+    LinkedIn bro "excited to announce" he made a cup of tea
+    <span class="tick-sep">|</span>
+    Person who said "new year new me" spotted doing exact same things
+    <span class="tick-sep">|</span>
+    Study confirms: your villain arc was actually the right move
+    <span class="tick-sep">|</span>
+    ALERT: Main character energy detected, NPC behaviour observed simultaneously
+    <span class="tick-sep">|</span>
+    Therapy waitlist now longer than your list of unresolved childhood issues
+    <span class="tick-sep">|</span>
+    BREAKING: Person who "just needs 5 minutes" has been gone for 3 hours
+    <span class="tick-sep">|</span>
+    Scientists confirm: you ARE the problem, but so is everyone else
+    <span class="tick-sep">|</span>
+    Mercury retrograde blamed for bad vibes, missed deadlines, and Tuesday
+    <span class="tick-sep">|</span>
+    Man finishes entire Netflix series, immediately starts it again
+    <span class="tick-sep">|</span>
+    LinkedIn bro "excited to announce" he made a cup of tea
+    <span class="tick-sep">|</span>
+    Person who said "new year new me" spotted doing exact same things
+    <span class="tick-sep">|</span>
+    Study confirms: your villain arc was actually the right move
+    <span class="tick-sep">|</span>
+    ALERT: Main character energy detected, NPC behaviour observed simultaneously
+    <span class="tick-sep">|</span>
+    Therapy waitlist now longer than your list of unresolved childhood issues
+    <span class="tick-sep">|</span>
+  </span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">GHAPLA</a>
+  <div class="nav-right">
+    <a class="nav-pill" href="#tools">Tools</a>
+    <a class="nav-pill" href="#feed">Feed</a>
+    <a class="nav-pill" href="#horo">Horoscope</a>
+    <button class="nav-pill active" onclick="shareNow()">Share 📤</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+
+  <div class="hero-tag">
+    <span></span> The Internet's Most Unhinged Website &nbsp;·&nbsp; Est. 2025
+  </div>
+
+  <h1 class="hero-title">
+    WHAT IS
+    <span class="hero-title-yellow">GHAPLA</span>
+  </h1>
+
+  <p class="hero-sub">
+    <strong>Nobody knows.</strong> That's the point. Check your aura, find your villain arc, get roasted by AI, discover which NPC you are, and waste time in breathtaking HD.
+  </p>
+
+  <div class="hero-ctas">
+    <button class="btn-primary" onclick="startGhapla()">Enter the Ghapla 🫠</button>
+    <button class="btn-secondary" onclick="shareNow()">Send to Someone 📲</button>
+  </div>
+
+  <div class="hero-stats">
+    <div class="hstat">
+      <div class="hstat-num" id="hv">3,41,209</div>
+      <div class="hstat-label">Brains Broken</div>
+    </div>
+    <div class="hstat">
+      <div class="hstat-num" id="hc">1.2 CR</div>
+      <div class="hstat-label">Pointless Clicks</div>
+    </div>
+    <div class="hstat">
+      <div class="hstat-num">4.8 HRS</div>
+      <div class="hstat-label">Avg Time Wasted</div>
+    </div>
+    <div class="hstat">
+      <div class="hstat-num">∞</div>
+      <div class="hstat-label">Red Flags Detected</div>
+    </div>
+  </div>
+</section>
+
+<!-- TOP AD (Leaderboard 728×90) -->
+<div class="ad-slot ad-leaderboard">
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-9162192494290934"
+    data-ad-slot="auto"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+<!-- TOOLS SECTION -->
+<section class="section" id="tools">
+  <div class="section-head">
+    <div class="section-label">// totally_useless_tools.exe</div>
+    <h2 class="section-title">GHAPLA <span class="y">TOOLS</span></h2>
+    <p class="section-desc">Powered by AI (Absolutely Imaginary™) · Results 100% meaningless but dangerously shareable</p>
+  </div>
+
+  <div class="tools-grid">
+    <div class="tool-tile" onclick="openTool('aura')">
+      <span class="tool-badge-hot">HOT</span>
+      <span class="tool-icon">✨</span>
+      <div class="tool-name">Aura Score Calculator</div>
+      <div class="tool-desc">Find your true aura % based entirely on vibes and nothing else</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('mainchar')">
+      <span class="tool-badge-new">NEW</span>
+      <span class="tool-icon">🎬</span>
+      <div class="tool-name">Main Character Test</div>
+      <div class="tool-desc">Are you the protagonist or an NPC in your own life?</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('roast')">
+      <span class="tool-icon">🌶️</span>
+      <div class="tool-name">AI Roast Generator</div>
+      <div class="tool-desc">Our AI has been trained on your entire personality. Brace yourself.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('redflag')">
+      <span class="tool-badge-hot">VIRAL</span>
+      <span class="tool-icon">🚩</span>
+      <div class="tool-name">Red Flag Calculator</div>
+      <div class="tool-desc">How many red flags are you? Be honest. We already know.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('villain')">
+      <span class="tool-icon">😈</span>
+      <div class="tool-name">Villain Arc Starter</div>
+      <div class="tool-desc">Your villain origin story, generated by the universe</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('chronline')">
+      <span class="tool-icon">📱</span>
+      <div class="tool-name">Chronically Online Test</div>
+      <div class="tool-desc">How deep in the internet are you actually?</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('therapist')">
+      <span class="tool-icon">🛋️</span>
+      <div class="tool-name">AI Therapist (Unqualified)</div>
+      <div class="tool-desc">Zero credentials. Maximum confidence. Free advice.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('sigma')">
+      <span class="tool-icon">😤</span>
+      <div class="tool-name">Sigma Level Test</div>
+      <div class="tool-desc">Actually sigma or just terminally online? The truth hurts.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('spotify')">
+      <span class="tool-icon">🎧</span>
+      <div class="tool-name">Spotify Wrapped Diagnosis</div>
+      <div class="tool-desc">What your listening habits say about your mental state</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('npc')">
+      <span class="tool-badge-hot">SCARY</span>
+      <span class="tool-icon">🤖</span>
+      <div class="tool-name">NPC Type Identifier</div>
+      <div class="tool-desc">Which NPC archetype are you in the simulation?</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('linkedin')">
+      <span class="tool-icon">💼</span>
+      <div class="tool-name">LinkedIn Cringe Meter</div>
+      <div class="tool-desc">Quantifying the unquantifiable. Your profile in numbers.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('exam')">
+      <span class="tool-badge-new">CURSED</span>
+      <span class="tool-icon">🔮</span>
+      <div class="tool-name">Life Decision Oracle</div>
+      <div class="tool-desc">Should you do the thing? The oracle will decide for you.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openCompat()">
+      <span class="tool-badge-hot">🔥 VIRAL</span>
+      <span class="tool-icon">💞</span>
+      <div class="tool-name">Compatibility Calculator</div>
+      <div class="tool-desc">Enter two names. Find out if you're doomed or destined.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('friendtype')">
+      <span class="tool-badge-new">NEW</span>
+      <span class="tool-icon">👥</span>
+      <div class="tool-name">What Type of Friend Are You</div>
+      <div class="tool-desc">The toxic one? The therapist? The chaotic one? Find out.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+    <div class="tool-tile" onclick="openTool('situationship')">
+      <span class="tool-badge-new">NEW</span>
+      <span class="tool-icon">😬</span>
+      <div class="tool-name">Situationship Analyser</div>
+      <div class="tool-desc">What is this situation actually? Be honest. We'll be honest back.</div>
+      <span class="tool-arrow">↗</span>
+    </div>
+  </div>
+</section>
+
+<!-- MID AD (Rectangle 300×250) -->
+<div style="display:flex;justify-content:center;padding:0 20px;">
+  <div class="ad-slot ad-rectangle">
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-9162192494290934"
+    data-ad-slot="auto"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  </div>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+<section class="section">
+  <div class="section-head">
+    <div class="section-label">// live_data_feed (definitely real)</div>
+    <h2 class="section-title">RIGHT <span class="y">NOW</span></h2>
+    <p class="section-desc">Real-time statistics. Fully accurate. Trust the process.</p>
+  </div>
+  <div class="counters-grid">
+    <div class="counter-card">
+      <div class="counter-num" id="c1">5,23,891</div>
+      <div class="counter-label"><span class="counter-dot"></span>People Ghosted Today</div>
+    </div>
+    <div class="counter-card">
+      <div class="counter-num" id="c2">9,87,234</div>
+      <div class="counter-label"><span class="counter-dot"></span>Villain Arcs In Progress</div>
+    </div>
+    <div class="counter-card">
+      <div class="counter-num" id="c3">3,12,019</div>
+      <div class="counter-label"><span class="counter-dot"></span>LinkedIn Posts Cringing RN</div>
+    </div>
+    <div class="counter-card">
+      <div class="counter-num" id="c4">1,04,234</div>
+      <div class="counter-label"><span class="counter-dot"></span>People In Their Feels</div>
+    </div>
+    <div class="counter-card">
+      <div class="counter-num" id="c5">2,91,891</div>
+      <div class="counter-label"><span class="counter-dot"></span>Unread Therapy Recommendations</div>
+    </div>
+    <div class="counter-card">
+      <div class="counter-num" id="c6">4,12,44,891</div>
+      <div class="counter-label"><span class="counter-dot"></span>"New Year New Me" Failures</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="max-width:1080px;margin:20px auto;"></div>
+
+<section class="section">
+  <div class="section-head">
+    <div class="section-label">// hall_of_shame.json</div>
+    <h2 class="section-title">GHAPLA <span class="y">LEGENDS</span></h2>
+    <p class="section-desc">The most unhinged archetypes in the ecosystem. Ranked by vibes.</p>
+  </div>
+  <div class="lb">
+    <div class="lb-header"><span>RANK</span><span>LEGEND</span><span>SCORE</span></div>
+    <div class="lb-row" onclick="rain('🏆🎉🥇')">
+      <div class="lb-num first">01</div>
+      <div class="lb-info"><span class="lb-person">🎬 The Main Character — Always the protagonist</span><span class="lb-sub">Background music plays whenever they enter a room.</span></div>
+      <div class="lb-score">99,999</div>
+    </div>
+    <div class="lb-row" onclick="rain('💼🔥')">
+      <div class="lb-num second">02</div>
+      <div class="lb-info"><span class="lb-person">💼 LinkedIn Bro — 4 Startups, 0 Revenue</span><span class="lb-sub">"Humbled and excited to announce" daily.</span></div>
+      <div class="lb-score">87,420</div>
+    </div>
+    <div class="lb-row" onclick="rain('🚩😂')">
+      <div class="lb-num third">03</div>
+      <div class="lb-info"><span class="lb-person">🚩 Red Flag Collector — Premium Edition</span><span class="lb-sub">Sees the flags. Buys souvenirs. Goes back.</span></div>
+      <div class="lb-score">82,001</div>
+    </div>
+    <div class="lb-row" onclick="rain('🛋️💭')">
+      <div class="lb-num">04</div>
+      <div class="lb-info"><span class="lb-person">🛋️ Chronically Online Philosopher</span><span class="lb-sub">Has opinions on everything. Has done nothing.</span></div>
+      <div class="lb-score">76,666</div>
+    </div>
+    <div class="lb-row" onclick="rain('😈⚡')">
+      <div class="lb-num">05</div>
+      <div class="lb-info"><span class="lb-person">😈 Villain Arc In Progress — Day 847</span><span class="lb-sub">Started villain arc in 2021. Still going.</span></div>
+      <div class="lb-score">69,420</div>
+    </div>
+    <div class="lb-row" onclick="rain('💪🏋️')">
+      <div class="lb-num">06</div>
+      <div class="lb-info"><span class="lb-person">💪 Gym Bro — Protein Only Personality</span><span class="lb-sub">Goes gym once a week, posts 7 days a week.</span></div>
+      <div class="lb-score">54,321</div>
+    </div>
+    <div class="lb-row" onclick="rain('🔮✨')">
+      <div class="lb-num">07</div>
+      <div class="lb-info"><span class="lb-person">🔮 Astrology Girlie — Mercury Did This</span><span class="lb-sub">Blames retrograde for everything. Correct.</span></div>
+      <div class="lb-score">42,069</div>
+    </div>
+  </div>
+  <br>
+  <button class="btn-primary" style="width:100%;font-size:16px;padding:16px;" onclick="openTool('aura')">
+    Find Your Ghapla Score 🫠
+  </button>
+</section>
+
+<!-- AD (Banner 468×60) -->
+<div style="display:flex;justify-content:center;padding:0 20px;">
+  <div class="ad-slot ad-banner">
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-9162192494290934"
+      data-ad-slot="auto"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  </div>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+<!-- CHAOS FEED -->
+<section class="section" id="feed">
+  <div class="section-head">
+    <div class="section-label">// chaos_feed.live</div>
+    <h2 class="section-title">TODAY'S <span class="y">GHAPLA</span></h2>
+    <p class="section-desc">Updated every time Mercury breathes · All stories 100% spiritually accurate</p>
+  </div>
+  <div class="feed" id="feedContainer"></div>
+  <br>
+  <button class="btn-secondary" style="width:100%;padding:14px;font-size:15px;" onclick="loadFeed()">
+    Load More Ghapla 🔄
+  </button>
+</section>
+
+<!-- HOROSCOPE -->
+<section class="section" id="horo">
+  <div class="section-head">
+    <div class="section-label">// mercury_says.astro</div>
+    <h2 class="section-title">CHAOS <span class="y">HOROSCOPE</span></h2>
+    <p class="section-desc">Tap your sign. Blame the stars for everything. It's Mercury's fault.</p>
+  </div>
+  <div class="horo-grid">
+    <div class="horo-tile" onclick="openHoro('Aries','♈')"><div class="horo-symbol">♈</div><div class="horo-name">ARIES</div><div class="horo-dates">Mar 21–Apr 19</div></div>
+    <div class="horo-tile" onclick="openHoro('Taurus','♉')"><div class="horo-symbol">♉</div><div class="horo-name">TAURUS</div><div class="horo-dates">Apr 20–May 20</div></div>
+    <div class="horo-tile" onclick="openHoro('Gemini','♊')"><div class="horo-symbol">♊</div><div class="horo-name">GEMINI</div><div class="horo-dates">May 21–Jun 20</div></div>
+    <div class="horo-tile" onclick="openHoro('Cancer','♋')"><div class="horo-symbol">♋</div><div class="horo-name">CANCER</div><div class="horo-dates">Jun 21–Jul 22</div></div>
+    <div class="horo-tile" onclick="openHoro('Leo','♌')"><div class="horo-symbol">♌</div><div class="horo-name">LEO</div><div class="horo-dates">Jul 23–Aug 22</div></div>
+    <div class="horo-tile" onclick="openHoro('Virgo','♍')"><div class="horo-symbol">♍</div><div class="horo-name">VIRGO</div><div class="horo-dates">Aug 23–Sep 22</div></div>
+    <div class="horo-tile" onclick="openHoro('Libra','♎')"><div class="horo-symbol">♎</div><div class="horo-name">LIBRA</div><div class="horo-dates">Sep 23–Oct 22</div></div>
+    <div class="horo-tile" onclick="openHoro('Scorpio','♏')"><div class="horo-symbol">♏</div><div class="horo-name">SCORPIO</div><div class="horo-dates">Oct 23–Nov 21</div></div>
+    <div class="horo-tile" onclick="openHoro('Sagittarius','♐')"><div class="horo-symbol">♐</div><div class="horo-name">SAGITTARIUS</div><div class="horo-dates">Nov 22–Dec 21</div></div>
+    <div class="horo-tile" onclick="openHoro('Capricorn','♑')"><div class="horo-symbol">♑</div><div class="horo-name">CAPRICORN</div><div class="horo-dates">Dec 22–Jan 19</div></div>
+    <div class="horo-tile" onclick="openHoro('Aquarius','♒')"><div class="horo-symbol">♒</div><div class="horo-name">AQUARIUS</div><div class="horo-dates">Jan 20–Feb 18</div></div>
+    <div class="horo-tile" onclick="openHoro('Pisces','♓')"><div class="horo-symbol">♓</div><div class="horo-name">PISCES</div><div class="horo-dates">Feb 19–Mar 20</div></div>
+  </div>
+</section>
+
+<!-- AD (Large Rectangle 336×280) -->
+<div style="display:flex;justify-content:center;padding:0 20px;">
+  <div class="ad-slot ad-large-rect">
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-9162192494290934"
+      data-ad-slot="auto"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  </div>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+<!-- SCAM OF THE DAY -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-label">// daily_nonsense.live</div>
+    <h2 class="section-title">TODAY'S <span class="y">UNHINGED FACT</span></h2>
+  </div>
+  <div class="scam-notice">
+    <span class="sh">🧠 FACT:</span> You have been meaning to "sort out your life" for approximately 3–7 years now. Scientists studying your Notes app have found 23 entries titled "things to fix", "new routine", and "actually starting Monday". Monday has arrived 364 times. The entries remain. The chaos persists. You are, by all measurable metrics, thriving in your own specific way.<br><br>
+    <span style="color:rgba(255,255,255,0.3);font-size:11px;">* This website is not responsible for any existential realisations. Share it with someone who needs to feel seen.</span>
+  </div>
+</section>
+
+<!-- SHARE SECTION -->
+<section class="section">
+  <div class="share-box">
+    <p style="font-size:40px;margin-bottom:12px;">📲</p>
+    <h2 class="share-title">SEND THE <span class="y">GHAPLA</span></h2>
+    <p class="share-desc">Ruin someone else's productivity too. It's only fair.</p>
+    <div class="share-btns">
+      <button class="sbtn wa" onclick="shareWA()">📱 WhatsApp</button>
+      <button class="sbtn tw" onclick="shareTW()">🐦 Twitter / X</button>
+      <button class="sbtn ig" onclick="shareIG()">📸 Instagram</button>
+      <button class="sbtn cp" onclick="copyURL()">🔗 Copy Link</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">GHAPLA<span style="font-size:16px;color:var(--green);vertical-align:super;letter-spacing:1px;">.in</span></div>
+  <div class="footer-tagline">The Internet's Most Unhinged Website · Proudly Pointless Since 2025</div>
+  <div class="footer-links">
+    <a href="/about.html">About</a>
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+    <a href="mailto:hello@ghapla.in">Contact</a>
+    <a href="/sitemap.xml">Sitemap</a>
+  </div>
+  <div class="footer-copy">© 2025 Ghapla.in · Not liable for: villain arcs, existential realisations, or red flags you ignored · Made with 🫠 energy</div>
+</footer>
+
+<!-- STICKY AD (bottom) -->
+<div class="ad-sticky" id="stickyAd">
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-9162192494290934"
+    data-ad-slot="auto"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  <button class="ad-sticky-close" onclick="document.getElementById('stickyAd').style.display='none'">×</button>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+<!-- COMPATIBILITY MODAL -->
+<div class="overlay" id="compatOverlay" onclick="closeCompatOutside(event)">
+  <div class="modal" id="compatModal">
+    <button class="modal-x" onclick="closeCompat()">✕</button>
+    <div class="modal-label">compatibility_calculator.ai</div>
+    <div class="modal-title">COMPATIBILITY</div>
+    <div class="modal-sub">Enter two names. The algorithm will decide your fate. Results are binding.</div>
+    <input class="modal-inp" id="compatName1" placeholder="First name..." />
+    <input class="modal-inp" id="compatName2" placeholder="Second name..." style="margin-top:8px;" />
+    <button class="modal-go" id="compatGo" onclick="runCompat()">Calculate Compatibility 💞</button>
+    <div class="prog-wrap" id="compatProg"><div class="prog-bar" id="compatBar"></div></div>
+    <div class="modal-result" id="compatResult">
+      <div class="result-headline" id="compatHead"></div>
+      <div class="result-body" id="compatBody"></div>
+      <div class="result-actions">
+        <button class="ract wa" onclick="compatWA()">📱 WhatsApp</button>
+        <button class="ract" onclick="compatTW()">🐦 Tweet</button>
+        <button class="ract" onclick="compatCopy()">📋 Copy</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="modal" id="modal">
+    <button class="modal-x" onclick="closeModal()">✕</button>
+    <div class="modal-label" id="mLabel">ghapla_tool.exe</div>
+    <div class="modal-title" id="mTitle">TOOL</div>
+    <div class="modal-sub" id="mSub">Loading...</div>
+    <input class="modal-inp" id="mInput" placeholder="Enter name..." />
+    <button class="modal-go" id="mGo" onclick="runTool()">Calculate 🫠</button>
+    <div class="prog-wrap" id="progWrap"><div class="prog-bar" id="progBar"></div></div>
+    <div class="modal-result" id="mResult">
+      <div class="result-headline" id="rHead"></div>
+      <div class="result-body" id="rBody"></div>
+      <div class="result-actions">
+        <button class="ract wa" onclick="resultWA()">📱 WhatsApp</button>
+        <button class="ract" onclick="resultTW()">🐦 Tweet</button>
+        <button class="ract" onclick="resultCopy()">📋 Copy</button>
+        <button class="ract" style="border-color:var(--yellow);color:var(--yellow);" onclick="runTool()">🔄 Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════ -->
+<script>
+'use strict';
+
+// ── Analytics helper (safe no-op if GA not loaded) ──
+const track = (e, p) => { try { if(window.gtag) gtag('event', e, p||{}); } catch(_){} };
+
+// ── Click counter + achievements ──
+let clicks = 0, toastTimer;
+document.addEventListener('click', () => {
+  clicks++;
+  track('click', { count: clicks });
+  if (clicks === 15)  toast('Ghapla Apprentice 🫠', 'You clicked 15 times. The journey begins.');
+  if (clicks === 40)  toast('Mid-Level Chaos 🔥', '40 clicks. No going back now.');
+  if (clicks === 69)  toast('Nice. 🫡', 'You know why this unlocked.');
+  if (clicks === 100) { toast('Century of Ghapla 💯', '100 clicks. Please drink water.'); rain('🎉🏆💯🫠'); }
+});
+
+// ── Toast ──
+function toast(title, sub) {
+  const el = document.getElementById('toast');
+  document.getElementById('toastTitle').textContent = title;
+  document.getElementById('toastSub').textContent = sub;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 4000);
+  track('achievement', { title });
+}
+
+// ── Emoji rain ──
+const EMOJIS = ['🫠','🔥','💀','⚡','🎉','🏏','☕','🔮','💸','😤','🧿','📱','💪','🧠'];
+function rain(chars) {
+  const pool = chars ? chars.split('') : EMOJIS;
+  const container = document.getElementById('rain');
+  for (let i = 0; i < 20; i++) {
+    setTimeout(() => {
+      const d = document.createElement('div');
+      d.className = 'drop';
+      d.textContent = pool[Math.floor(Math.random() * pool.length)];
+      d.style.left = (Math.random() * 100) + 'vw';
+      d.style.animationDuration = (1.4 + Math.random() * 1.8) + 's';
+      d.style.fontSize = (18 + Math.random() * 20) + 'px';
+      container.appendChild(d);
+      setTimeout(() => d.remove(), 3500);
+    }, i * 70);
+  }
+}
+
+// ── Hero CTA ──
+function startGhapla() {
+  rain();
+  toast('Ghapla Initiated 🫠', 'Welcome to the chaos. No escape now.');
+  track('hero_cta');
+  setTimeout(() => document.getElementById('tools').scrollIntoView({ behavior: 'smooth' }), 400);
+}
+
+// ── Live counters ──
+const counters = [
+  { id:'c1', v:523891,  r:4  },
+  { id:'c2', v:987234,  r:140 },
+  { id:'c3', v:312019,  r:3  },
+  { id:'c4', v:104234,  r:1  },
+  { id:'c5', v:291891,  r:7  },
+  { id:'c6', v:41244891,r:300},
+];
+setInterval(() => {
+  counters.forEach(c => {
+    c.v += Math.floor(Math.random() * c.r);
+    const el = document.getElementById(c.id);
+    if (el) el.textContent = c.v.toLocaleString('en-IN');
+  });
+}, 1100);
+
+// Hero visitor counter
+let hv = 341209;
+setInterval(() => { hv += Math.floor(Math.random()*3); const e=document.getElementById('hv'); if(e) e.textContent = hv.toLocaleString('en-IN'); }, 3200);
+
+// ── Typing tagline ──
+const lines = [
+  'Calculating your villain arc progress...',
+  'Detecting red flags in your vicinity...',
+  'Measuring main character energy...',
+  'AI therapist is judging you...',
+  'Your aura score is being processed...',
+  'Compatibility check in progress...',
+  'Situationship diagnosis incoming...',
+  'Friend type analysis running...',
+  'NPC type identified. Results incoming...',
+  'The oracle has made a decision...',
+];
+let li = 0;
+
+// ══════════════════════════════════════
+// SEED + PERSONALITY ENGINE
+// Same name = same result, every time
+// ══════════════════════════════════════
+function seedRandom(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash) + str.charCodeAt(i);
+    hash |= 0;
+  }
+  return function(max) {
+    hash = ((hash << 5) - hash) + 31;
+    hash |= 0;
+    return Math.abs(hash) % max;
+  };
+}
+
+function getPersonalityTraits(name) {
+  const n = (name || 'anon').toLowerCase().trim();
+  const firstChar = n.charCodeAt(0) || 65;
+  const lastChar  = n.charCodeAt(n.length - 1) || 65;
+  const vowels    = (n.match(/[aeiou]/g) || []).length;
+  const consonants = n.length - vowels;
+  const vibes  = ['chaotic','calculated','delusional','unhinged','suspiciously calm','chronically online','main character','NPC energy'];
+  const habits = ["checks ex's profile at 2am","has 14 unfinished self-improvement books","texts back immediately then pretends not to","sends voice notes longer than 3 minutes","cancels plans but feels bad about it","overexplains everything","goes quiet when upset instead of saying so"];
+  const traits = ['emotionally intelligent but refuses to show it','chaotic but in a charming way','overthinks everything including this result','gives great advice and never follows it','has strong opinions about niche things','loyal to a fault','funny when comfortable, silent when not'];
+  const rng = seedRandom(n + 'traits');
+  return {
+    vibe:  vibes[rng(vibes.length)],
+    habit: habits[rng(habits.length)],
+    trait: traits[rng(traits.length)],
+    score: 55 + (firstChar + lastChar + vowels * 3) % 44,
+    flags: 2  + (n.length + vowels) % 7,
+    sigma: (firstChar + lastChar * 2 + consonants * 3) % 100,
+  };
+}
+
+// ══════════════════════════════════════
+// TOOLS DATA
+// ══════════════════════════════════════
+const TOOLS = {
+  aura: {
+    label: 'aura_calculator.ai', title: 'AURA SCORE',
+    sub: 'Enter your name. Your result is unique to you — same name always gets the same score.',
+    ph: 'Your name...', btn: 'Calculate Aura 🔮',
+    fn: (n) => {
+      const p = getPersonalityTraits(n);
+      const rng = seedRandom(n + 'aura');
+      const types = ['Chaotic Neutral','Main Character','NPC Pretending','Villain Era','Delulu Royalty','Gaslight Girlboss','Sigma Adjacent','Background Character'];
+      const t = types[rng(types.length)];
+      const desc = [
+        `${n}, your aura is ${p.score}% pure and ${100-p.score}% ${p.vibe}. Our AI has been studying you specifically. Classification: ${t}. You ${p.habit}. This is not random — this is calculated from your name's cosmic frequency. Share this and watch people say "wait this is accurate".`,
+        `Aura scan for ${n} complete. Score: ${p.score}/100. You are ${p.trait}. The algorithm also detected that you ${p.habit}. Type: ${t}. This result is unique to your name — someone else will get something completely different. Try it.`,
+        `${n}'s cosmic profile: ${p.score}% aura, classified as ${t}. You are ${p.vibe} with strong tendencies to ${p.habit}. The universe adds: ${p.trait}. No two names get the same score. Check what your friends get.`
+      ];
+      return { h:`${p.score}% AURA ✨`, b:desc[rng(desc.length)] };
+    }
+  },
+  mainchar: {
+    label: 'main_character_test.exe', title: 'MAIN CHARACTER',
+    sub: 'Your result is calculated from your name. Different names = different results.',
+    ph: 'Your name...', btn: 'Test Main Character Energy 🎬',
+    fn: (n) => {
+      const p = getPersonalityTraits(n);
+      const s = p.sigma;
+      let h, b;
+      if (s > 70) {
+        h = 'CERTIFIED MAIN CHARACTER 🎬';
+        b = n + ', you walk into rooms like the camera follows you. The algorithm detected this from your name\'s energy. You are ' + p.trait + '. The side characters in your life sense your main character status — some are inspired, some are intimidated. Both reactions are correct.';
+      } else if (s > 40) {
+        h = 'MAIN CHARACTER UNDERSTUDY 🎭';
+        b = n + ', you\'re ' + s + '% main character. You have the moments — the perfect timing, the right comeback 3 hours later in the shower. But you also spend time watching other people\'s plots. You tend to ' + p.habit + '. The understudy often has the better arc.';
+      } else {
+        h = 'PREMIUM NPC 🤖';
+        b = n + ', strong NPC energy detected. Score: ' + s + '/100. You tend to ' + p.habit + '. You exist in the background of at least 3 people\'s main character moments this week. NPCs are essential — the main characters literally cannot function without you. You are infrastructure.';
+      }
+      return { h, b };
+    }
+  },
+  roast: {
+    label: 'ai_roast.maximum_damage', title: 'ROAST MODE',
+    sub: 'Your roast is specific to your name. Same name = same roast every time.',
+    ph: 'Your name...', btn: 'Roast Me 🌶️',
+    fn: (n) => {
+      const p = getPersonalityTraits(n);
+      const rng = seedRandom(n + 'roast');
+      const roasts = [
+        `${n}, you are ${p.vibe} energy with ${p.flags} active red flags. You ${p.habit}. You give other people life advice while doing exactly this. The audacity is, genuinely, your best quality. Screenshot this and send to your group chat — they'll say it's accurate.`,
+        `${n}: ${p.trait}. You also ${p.habit}. These two facts coexist in you daily. You've sent at least one message this week you immediately regretted. You know which one. So does the other person. Our AI has no further comments.`,
+        `Roast complete for ${n}. Vibe: ${p.vibe}. Habit flagged most frequently: you ${p.habit}. Overall assessment: ${p.trait}. This is calculated from your name — your friends will get completely different results. Try it and compare.`,
+        `${n}, you are ${p.score}% self-aware and ${100-p.score}% in denial about specific things. You ${p.habit}. The algorithm is not judging — it is simply observing. You already know what needs addressing. You've known for a while.`
+      ];
+      return { h:'ROASTED 🔥', b:roasts[rng(roasts.length)] };
+    }
+  },
+  redflag: {
+    label: 'red_flag_calculator.exe', title: 'RED FLAGS',
+    sub: 'Your flags are unique to your name. Same name = same flags every time.',
+    ph: 'Your name...', btn: 'Calculate My Flags 🚩',
+    fn: (n) => {
+      const p = getPersonalityTraits(n);
+      const f = p.flags;
+      const l = f<=3?'Low-Key Red Flag':f<=5?'Medium Red Flag Energy':f<=7?'Advanced Red Flag':'Walking Red Flag Museum';
+      const rng = seedRandom(n + 'flags');
+      const allFlags = [
+        'leaves people on read strategically, then acts surprised they\'re annoyed',
+        'says "I\'m not like other people" — and genuinely believes it',
+        'texts back instantly then immediately pretends they didn\'t see it',
+        'has strong unsolicited opinions about other people\'s music taste',
+        'goes completely silent when upset instead of saying anything',
+        'cancels plans last minute but feels guilty about it for 4 days',
+        'overexplains every decision to people who didn\'t ask',
+        'checks their situationship\'s profile daily while acting unbothered',
+        'says "it\'s fine" when it is very clearly not fine',
+        'gives amazing life advice and applies none of it personally',
+        'love bombs early then disappears for days with no explanation',
+        'trauma dumps in the first 20 minutes of meeting someone',
+      ];
+      // Pick f unique flags based on name seed
+      const picked = [];
+      const used = new Set();
+      let attempts = 0;
+      while (picked.length < f && attempts < 50) {
+        const idx = rng(allFlags.length);
+        if (!used.has(idx)) { used.add(idx); picked.push(allFlags[idx]); }
+        attempts++;
+      }
+      const flagLines = picked.map((flag, i) => `🚩 ${i+1}. ${flag}`).join('\n');
+      return {
+        h: `🚩 ${f} RED FLAGS`,
+        b: `${n}: ${l}.\n\nYour ${f} flags:\n\n${flagLines}\n\nThese are unique to your name. Ask friends to check theirs — everyone gets different flags.`
+      };
+    }
+  },
+  villain: {
+    label: 'villain_arc_generator.dark', title: 'VILLAIN ARC',
+    sub: 'Your villain origin story is unique to your name. No two are the same.',
+    ph: 'Your name...', btn: 'Generate My Arc 😈',
+    fn: (n) => {
+      const p = getPersonalityTraits(n);
+      const rng = seedRandom(n + 'villain');
+      const triggers = [
+        `someone took credit for ${n}'s work and everyone in the room nodded`,
+        `${n} was told to "just be patient" one too many times by people who were never patient with them`,
+        `${n} was the "responsible one" for 3 consecutive years and one day simply stopped`,
+        `${n} gave advice that changed someone's life and received zero acknowledgement`,
+        `${n} was described as "too much" by someone who was clearly not enough`
+      ];
+      const outcomes = [
+        `Current status: thriving. Collateral damage: minimal but intentional. The ${p.vibe} energy was always there — the arc just gave it permission.`,
+        `Current status: unbothered. The people who caused the arc call it "changed". ${n} calls it Thursday.`,
+        `Current status: villain arc complete, protagonist era loading. It wasn't darkness — it was ${p.trait}. Some found it terrifying. Correct.`
+      ];
+      return { h:'ARC INITIATED 😈', b:`${n}'s villain arc began the day ${triggers[rng(triggers.length)]}. They smiled. Said nothing. Went home. Started planning. The soft era was over. ${outcomes[rng(outcomes.length)]}` };
+    }
+  },
+  chronline: {
+    label: 'chronically_online_test.url', title: 'ONLINE LEVEL',
+    sub: 'Enter your daily screen time in hours for an accurate diagnosis.',
+    ph: 'Daily screen time (hours)...', btn: 'Diagnose Me 📱',
+    fn: (h) => {
+      const hrs = parseFloat(h)||5;
+      const level = hrs<=2?'Suspiciously Offline':hrs<=4?'Healthy (Boring)':hrs<=7?'Chronically Online':hrs<=10?'Internet Native':'You Live Here Now';
+      const extra = hrs<=4
+        ? `You occasionally touch grass. Statistically rare. The algorithm has less power over you than most. Use this wisely.`
+        : hrs<=7
+        ? `You communicate in memes. You've used "understood the assignment" in a real conversation. The internet is a place you visit frequently. It's becoming a place you're from.`
+        : `You think in tweets. You saw something happen IRL and thought "this is giving..." before finishing the thought. The internet is not a place you visit. It is a place you are from. Welcome home.`;
+      return { h:`${level} 📱`, b:`At ${hrs} hours/day: ${level}. ${extra} Share this with friends — compare your levels.` };
+    }
+  },
+  therapist: {
+    label: 'unqualified_therapist.ai', title: 'FREE THERAPY',
+    sub: 'Zero credentials. Maximum confidence. Describe your situation.',
+    ph: "What's going on...", btn: 'Get Diagnosed 🛋️',
+    fn: (q) => {
+      const rng = seedRandom((q||'nothing') + 'therapy');
+      const r = [
+        `Regarding "${q||'this'}": that's a "them" problem you've successfully converted into a "you" problem. Classic. You've absorbed someone else's chaos as personal responsibility. Treatment: stop that. Prognosis: good, once you stop explaining yourself to people who already decided.`,
+        `"${q||'This'}" — unresolved main character syndrome complicated by people-pleasing. You already know what to do. You've known for a while. You're asking an unqualified AI because you want permission. Here it is: you have permission.`,
+        `Analysis of "${q||'everything'}": unprocessed feelings with a side of avoidance and a sprinkle of "I'll deal with it later." Later has arrived. It is now. Recommendation: one honest conversation, two glasses of water, and accepting that some things don't resolve — they just become smaller.`
+      ];
+      return { h:'DIAGNOSED 🛋️', b:r[rng(r.length)] };
+    }
+  },
+  sigma: {
+    label: 'sigma_test.exe', title: 'SIGMA TEST',
+    sub: 'Your sigma level is calculated from your name. Same name = same result.',
+    ph: 'Your name...', btn: 'Test Sigma Level 😤',
+    fn: (n) => {
+      const p = getPersonalityTraits(n);
+      const s = p.sigma;
+      const t = s>85?'Actual Sigma (Rare)':s>65?'Sigma Wannabe':s>45?'Beta Cosplaying Sigma':s>25?'Certified NPC':'Complete Delulu';
+      const desc = s>85
+        ? 'You are genuinely unaffected by external validation. You make decisions based on internal logic. You do not explain yourself. This is rare. It is also mildly terrifying to everyone around you. One friend, maybe. That is enough.'
+        : 'You are ' + p.vibe + ' with a tendency to ' + p.habit + '. The sigma grindset is a direction, not a destination. Your score is unique to your name — ask your friends what they get.';
+      return { h: s + '% SIGMA 😤', b: n + ': ' + t + '. Score: ' + s + '/100. ' + desc };
+    }
+  },
+  friendtype: {
+    label: 'friend_type_analyser.exe', title: 'FRIEND TYPE',
+    sub: 'Your friend type is unique to your name. Tag the friend who needs to see this.',
+    ph: 'Your name...', btn: 'Find My Friend Type 👥',
+    fn: (n) => {
+      const rng = seedRandom(n + 'friendtype');
+      const types = [
+        { h:'THE THERAPIST FRIEND 🛋️', b:`${n}, you are the therapist friend. Everyone calls you first. You have absorbed approximately 47 people's trauma this year. You give advice at 2am. You are excellent at helping others and catastrophically bad at applying any of it to yourself. You are loved. You are also exhausted. Drink water.` },
+        { h:'THE CHAOTIC FRIEND 🔥', b:`${n}, you are the chaotic friend. Every plan becomes an adventure. Every adventure becomes a story. Every story starts with "okay so I may have made a slight error in judgement." You are never boring. You are occasionally a liability. People invite you anyway because life is better with you in it.` },
+        { h:'THE TOXIC FRIEND 🚩', b:`${n}, our AI has detected: toxic friend energy. Not maliciously — just chaotically. You cancel plans last minute. You love bomb and then disappear. You give the best advice and create the most drama simultaneously. You are working on it. The group chat is patient. Mostly.` },
+        { h:'THE STABLE ONE 🏔️', b:`${n}, you are the stable friend. You show up. You remember birthdays. You bring snacks nobody asked for but everyone needed. In a group of chaotic people, you are the load-bearing wall. Everyone leans on you. Make sure someone is doing the same for you.` },
+        { h:'THE FUNNY ONE 😂', b:`${n}, you are the funny friend. Every group chat becomes 40% more alive when you join. You defuse tension with humour. You process your feelings through jokes. The jokes are 70% accurate self-roasting. People think you're fine. Check in with yourself occasionally.` },
+        { h:'THE MYSTERIOUS ONE 🌑', b:`${n}, you are the mysterious friend. You appear occasionally, say something profound, and vanish for 3 weeks. Nobody knows your full schedule. You show up in crisis. You disappear in calm. People are always a little surprised to hear from you and always glad they did.` },
+      ];
+      return types[rng(types.length)];
+    }
+  },
+  situationship: {
+    label: 'situationship_analyser.ai', title: 'SITUATIONSHIP',
+    sub: 'Describe the situation. One sentence. We will diagnose it with zero mercy.',
+    ph: "Describe the situation (one line)...", btn: 'Analyse This Situation 😬',
+    fn: (q) => {
+      const rng = seedRandom((q||'nothing') + 'situ');
+      const diagnoses = [
+        { h:'SITUATIONSHIP CONFIRMED 😬', b:`Diagnosis of "${q||'this situation'}": This is a situationship. The signs are all there — undefined labels, inconsistent effort, just enough warmth to keep you there, just enough ambiguity to keep you confused. The treatment: have the conversation you've been avoiding for 3 weeks. Or don't. But know that "this is fine" is not a relationship status.` },
+        { h:'THEY\'RE JUST NOT THAT INTO IT 💀', b:`Regarding "${q||'this'}": our AI has reviewed the evidence. The effort is not equal. The energy is not matched. You are doing 70% of the work and calling it a vibe. It is not a vibe. It is a one-sided situation with good moments and concerning patterns. You already knew this. The algorithm just confirmed it.` },
+        { h:'CERTIFIED TALKING STAGE CHAOS 🌀', b:`"${q||'This'}" is a talking stage that has lasted too long. It was supposed to be 2 weeks. It has been significantly longer. Nobody has defined anything. Both of you are waiting for the other one to say something. One of you needs to say something. It should probably be you.` },
+        { h:'ACTUALLY GOOD NEWS 🟢', b:`Surprisingly, "${q||'this'}" scans as genuinely fine. Our AI detects: mutual effort, consistent communication, and no major red flags in the described pattern. This is rare data. Either proceed with cautious optimism or find something to worry about anyway — your choice. The algorithm supports both paths.` },
+      ];
+      return diagnoses[rng(diagnoses.length)];
+    }
+  },
+  spotify: {
+    label: 'spotify_diagnosis.wrapped', title: 'WRAPPED DIAGNOSIS',
+    sub: 'Enter your most played artist for a personalised diagnosis.',
+    ph: 'Your most played artist...', btn: 'Diagnose My Taste 🎧',
+    fn: (a) => {
+      const artist = a || 'whoever it is';
+      const rng = seedRandom(artist + 'spotify');
+      const d = [
+        `Your most played: ${artist}. Diagnosis: you found them at a specific moment in your life and will never fully separate them from that moment. Every listen is part memory, part present feeling. Spotify knows more about your emotional state than your closest friends.`,
+        `${artist} listener profile: you listen to the same songs on repeat when avoiding a feeling. That's not appreciation — that's processing. Our AI detects an unresolved situation. The music is doing emotional labour you haven't done yet.`,
+        `Based on ${artist}: you put on a playlist and let it run for 4 hours without skipping. You're either deeply focused or completely dissociating. The model cannot tell the difference. Neither can you, honestly.`
+      ];
+      return { h:'MUSIC DIAGNOSIS 🎧', b:d[rng(d.length)] };
+    }
+  },
+  npc: {
+    label: 'npc_identifier.simulation', title: 'NPC TYPE',
+    sub: 'Your NPC type is unique to your name. Same name = same type every time.',
+    ph: 'Your name...', btn: 'Identify My NPC Type 🤖',
+    fn: (n) => {
+      const rng = seedRandom(n + 'npc');
+      const types = [
+        { h:'THE TUTORIAL NPC 📖', b:`${n}, you exist to explain things to people who weren't listening. You give directions, provide context, answer the same question 7 times with patience. You are essential to how everything works and receive approximately zero credit. The main characters wouldn't last 20 minutes without you.` },
+        { h:'THE QUEST GIVER NPC 🗺️', b:`${n}, you assign tasks to others and then disappear. You say "I need this by Tuesday" and vanish until Tuesday. People complete missions for you. You are powerful. You are also consistently unavailable when the actual work happens.` },
+        { h:'THE MERCHANT NPC 💰', b:`${n}, you have things people want and you know your worth. You don't negotiate unless there's something in it for you. You're the person someone texts when they need something specific. The economy of every social group runs through you.` },
+        { h:'THE FINAL BOSS NPC 👑', b:`${n}, everyone has been building up to you without knowing it. You didn't ask for this. You're just being yourself. But somehow being yourself is the hardest challenge people in your life face. You're not trying to be difficult. You're operating at a level that requires others to level up just to talk to you.` },
+      ];
+      return types[rng(types.length)];
+    }
+  },
+  linkedin: {
+    label: 'linkedin_cringe.analyzer', title: 'CRINGE METER',
+    sub: 'Same headline always gets the same score. The algorithm is consistent.',
+    ph: 'Your LinkedIn headline...', btn: 'Measure Cringe 💼',
+    fn: (h) => {
+      const input = h || 'not provided';
+      const rng = seedRandom(input + 'linkedin');
+      const s = 55 + rng(42);
+      const detail = s>80
+        ? `Critical levels of "passionate about", "synergy", and "excited to announce" detected. You have written a post about a rejection as a "learning journey". The algorithm rewards this. That's the real problem.`
+        : `Moderate buzzword density. You're in the recoverable zone. Delete "hustler" from your bio and you drop 15 points immediately.`;
+      return { h:`${s}% CRINGE 💼`, b:`Headline: "${input}". Cringe Index: ${s}/100. ${detail} Same headline = same score every time.` };
+    }
+  },
+  exam: {
+    label: 'life_oracle.decision', title: 'LIFE ORACLE',
+    sub: 'The oracle gives the same answer for the same question every time. That\'s your sign.',
+    ph: "The thing you're considering...", btn: 'Ask the Oracle 🔮',
+    fn: (q) => {
+      const input = q || 'the thing';
+      const rng = seedRandom(input + 'oracle');
+      const answers = [
+        { h:'YES. DO IT. 🟢', b:`"${input}" — do it. You've been thinking about this longer than it would have taken to just do it. Worst case: a story. Best case: everything changes. The oracle gives the same answer every time you ask this. That's your sign.` },
+        { h:'ABSOLUTELY NOT. 🔴', b:`"${input}" — no. The fact that you're asking an unqualified website suggests part of you already knows. That part is right. The oracle will say this every time you ask this specific question.` },
+        { h:'CLASSIC MAYBE 🟡', b:`"${input}" is a maybe. This depends on a factor you haven't mentioned, which you're avoiding because it requires a difficult conversation. Have the conversation first. Then ask again — the answer might change.` },
+      ];
+      return answers[rng(answers.length)];
+    }
+  },
+}; // END TOOLS
+
+// ── COMPATIBILITY CALCULATOR ──
+function openCompat() {
+  document.getElementById('compatName1').value = '';
+  document.getElementById('compatName2').value = '';
+  document.getElementById('compatResult').classList.remove('show');
+  document.getElementById('compatProg').classList.remove('show');
+  document.getElementById('compatGo').disabled = false;
+  document.getElementById('compatGo').textContent = 'Calculate Compatibility 💞';
+  document.getElementById('compatOverlay').classList.add('open');
+  setTimeout(() => document.getElementById('compatName1').focus(), 300);
+  track('compat_open');
+}
+function closeCompat() { document.getElementById('compatOverlay').classList.remove('open'); }
+function closeCompatOutside(e) { if (e.target.id === 'compatOverlay') closeCompat(); }
+
+function runCompat() {
+  const n1 = document.getElementById('compatName1').value.trim() || 'Person A';
+  const n2 = document.getElementById('compatName2').value.trim() || 'Person B';
+  const go = document.getElementById('compatGo');
+  const prog = document.getElementById('compatProg');
+  const bar = document.getElementById('compatBar');
+
+  go.disabled = true;
+  go.textContent = 'Consulting the universe... 🔮';
+  prog.classList.add('show');
+  bar.style.width = '0%';
+
+  let p = 0;
+  const iv = setInterval(() => {
+    p += Math.floor(Math.random() * 15) + 5;
+    if (p >= 100) {
+      p = 100;
+      clearInterval(iv);
+      bar.style.width = '100%';
+      setTimeout(() => {
+        const result = calcCompat(n1, n2);
+        document.getElementById('compatHead').textContent = result.h;
+        document.getElementById('compatBody').innerHTML = result.b.replace(/\n/g, '<br>');
+        document.getElementById('compatResult').classList.add('show');
+        prog.classList.remove('show');
+        go.disabled = false;
+        go.textContent = '🔄 Try Again';
+        rain();
+        toast('Compatibility Calculated 💞', 'Screenshot and send it to them. Do it.');
+        track('compat_result');
+      }, 300);
+    } else { bar.style.width = p + '%'; }
+  }, 80);
+}
+
+function calcCompat(n1, n2) {
+  const combined = (n1 + n2).toLowerCase();
+  const rng = seedRandom(combined + 'compat');
+  const n1lower = n1.toLowerCase();
+  const n2lower = n2.toLowerCase();
+
+  // Score based on name combination — consistent for same pair
+  const score = 30 + (
+    (n1lower.charCodeAt(0) + n2lower.charCodeAt(0)) * 3 +
+    Math.abs(n1.length - n2.length) * 7 +
+    (n1lower.charCodeAt(n1.length-1) + n2lower.charCodeAt(n2.length-1)) * 2
+  ) % 65;
+
+  const dynamics = [
+    `${n1} overthinks. ${n2} underthinks. Together you achieve exactly average thinking. This is the foundation of most functional relationships.`,
+    `${n1} is the chaos. ${n2} is the cleanup crew. This dynamic works until ${n2} gets tired, which happens approximately every 4-6 months. Renegotiate regularly.`,
+    `Both ${n1} and ${n2} are waiting for the other one to make the first move. Our algorithm has been watching this for a while. Someone needs to go first.`,
+    `${n1} gives ${n2} the stability they didn't know they needed. ${n2} gives ${n1} the spontaneity they were too afraid to create themselves. Classic opposites dynamic.`,
+    `${n1} and ${n2} have identical communication styles: avoidance followed by a large conversation at an inconvenient time. This creates drama but also depth. Make of that what you will.`,
+    `${n2} will do something that annoys ${n1} within the first 3 interactions. ${n1} will not say anything. This will become a pattern. Address it early.`,
+  ];
+
+  const dynamic = dynamics[rng(dynamics.length)];
+
+  if (score >= 80) {
+    return {
+      h: `${score}% COMPATIBLE 💞`,
+      b: `${n1} + ${n2}: Highly compatible. Our algorithm analysed the cosmic frequency of both names and found significant alignment. ${dynamic}\n\nVerdict: You're good together. Don't overthink it. (You will anyway.)`
+    };
+  } else if (score >= 60) {
+    return {
+      h: `${score}% COMPATIBLE 🤝`,
+      b: `${n1} + ${n2}: Compatible with effort. ${dynamic}\n\nVerdict: This works if you both actually try. The potential is there. So is the potential for chaos. The difference is communication. Good luck.`
+    };
+  } else if (score >= 40) {
+    return {
+      h: `${score}% COMPATIBLE 😬`,
+      b: `${n1} + ${n2}: Complicated. ${dynamic}\n\nVerdict: Not impossible, just challenging. The algorithm detects friction but also interesting tension. Some of the best relationships are complicated. Some are just complicated. Hard to know without more data.`
+    };
+  } else {
+    return {
+      h: `${score}% COMPATIBLE 💀`,
+      b: `${n1} + ${n2}: The algorithm has concerns. ${dynamic}\n\nVerdict: ${score}% is not zero. But it is also not great. Our AI suggests: proceed with full awareness that this will require significant work, patience, and probably at least one difficult conversation. The algorithm does not recommend. The heart rarely listens to the algorithm.`
+    };
+  }
+}
+
+function compatWA() {
+  const h = document.getElementById('compatHead').textContent;
+  const b = document.getElementById('compatBody').textContent;
+  const n1 = document.getElementById('compatName1').value || 'us';
+  const n2 = document.getElementById('compatName2').value || '';
+  const txt = `🫠 Ghapla.in calculated our compatibility\n${h}\n${b.substring(0,120)}...\nCheck yours: ghapla.in`;
+  window.open('https://wa.me/?text=' + encodeURIComponent(txt), '_blank');
+  track('compat_share_wa');
+}
+function compatTW() {
+  const h = document.getElementById('compatHead').textContent;
+  const n1 = document.getElementById('compatName1').value || '';
+  const n2 = document.getElementById('compatName2').value || '';
+  const txt = `${n1} + ${n2} compatibility check on ghapla.in 🫠\n${h}\n\nghapla.in\n#Ghapla #Compatibility`;
+  window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(txt), '_blank');
+  track('compat_share_tw');
+}
+function compatCopy() {
+  const h = document.getElementById('compatHead').textContent;
+  const b = document.getElementById('compatBody').textContent;
+  navigator.clipboard.writeText(`${h}\n${b}\n\nFrom: ghapla.in 🫠`).then(() => {
+    toast('Copied! 📋', 'Send it to them. Make it awkward.');
+  });
+  track('compat_share_copy');
+}
+
+// These tools are already defined inside TOOLS object above.
+
+// ── Horoscope readings ──
+const HORO = {
+  Aries:['Today Mercury says: stop texting them back. The job you applied to will ghost you, but a better one is coming. Lucky number: 69. Lucky enemy: your own brain at 2am.','You will have a breakthrough insight while waiting 35 minutes for a delivery order. The breakthrough: you should have cooked. Lucky decision: the one you keep postponing.'],
+  Taurus:['Venus is watching you spend money on a skincare routine and then sleep with makeup on. Your financial spirit animal is that crypto you bought at the peak.','Today you will reach out to someone you haven\'t spoken to in 2 years. It will be awkward. Do it anyway. Your aura: 43%.'],
+  Gemini:['You have two moods today: "I\'ve figured everything out" and absolute catastrophe. Mercury retrograde is your entire personality at this point.','Your plan: productive morning, afternoon nap, YouTube until 3am, regret, repeat. The stars see you. The stars respect the chaos. The stars are also concerned.'],
+  Cancer:['The moon is doing something and it affects your feelings (it always does). Every rejection lately was them not being worthy of your energy. Believe this fully.','Someone will remember something you said in 2018 and screenshot it. Review your old posts preventively. Delete everything from 2016–2019.'],
+  Leo:['The sun is in your sign which means you already assumed this reading was about you. You were right. Post a selfie. Ratio anyone who disagrees.','You are giving main character energy in a world of NPCs. The issue: in 8 billion other people\'s stories, you\'re a supporting character. Humbling. True.'],
+  Virgo:['You have organised your anxiety into 14 colour-coded folders. This is impressive and also a symptom. Your Notes app has 347 entries. You\'ve read 5.','Today you\'ll give advice that genuinely changes someone\'s life and immediately fail to apply it to your own. Your superpower: hypocrisy as a service.'],
+  Libra:['You agreed to 4 plans this week and must now attend all 4. The stars laugh. Recommended exit strategy: strategic illness at 7pm.','You will spend 50 minutes deciding where to eat and then order your usual. The universe has accepted this. Your friends have accepted this. Order faster.'],
+  Scorpio:['Someone is quietly obsessed with you right now. You know who. You\'re too unbothered to address it. You\'re also enjoying it. Honest reading.','Your revenge strategy: living exceptionally well. Also literally planning actual revenge. The stars endorse both paths simultaneously.'],
+  Sagittarius:['Jupiter says: you bought 4 self-improvement books. You\'ve read page 19 of one of them. That\'s more than last time. Growth.','An adventure is coming. It is a 2-hour commute that should take 20 minutes. Find enlightenment in the wait. You have no choice.'],
+  Capricorn:['Saturn is doing complex things you won\'t research but will feel. Result: you work until 11pm and feel guilty for taking a lunch break. Rest is not a crime.','Your 5-year plan from 2019 was excellent. Then everything happened. You\'re on your fourth pivot. Flexible planning is wisdom. Your response: new spreadsheet.'],
+  Aquarius:['You had a thought at 3am that could reorganise society and forgot it. The stars mourn. Your Notes app has 89 half-finished ideas. Pick one.','The group chat you muted has 3,400 unread messages. Two are about you. You\'re not going to check. Smart. Correct.'],
+  Pisces:['Neptune is dissolving your boundaries and you\'re absorbing everyone\'s emotions again. Solution: one hour offline, two glasses of water, one honest self-check. Or cry at an ad. Both valid.','Your intuition is telling you something accurate and inconvenient. Stop ignoring it. The thing it\'s saying is correct. You already know what it is.']
+};
+
+let currentTool = null, currentResult = null;
+
+function openTool(key) {
+  const t = TOOLS[key];
+  if (!t) return;
+  currentTool = key;
+  document.getElementById('mLabel').textContent   = t.label;
+  document.getElementById('mTitle').textContent   = t.title;
+  document.getElementById('mSub').textContent     = t.sub;
+  document.getElementById('mInput').placeholder   = t.ph;
+  document.getElementById('mInput').value         = '';
+  document.getElementById('mGo').textContent      = t.btn;
+  document.getElementById('mGo').disabled         = false;
+  document.getElementById('mResult').classList.remove('show');
+  document.getElementById('progWrap').classList.remove('show');
+  document.getElementById('mInput').style.display = 'block';
+  document.getElementById('mGo').style.display    = 'block';
+  document.getElementById('overlay').classList.add('open');
+  setTimeout(() => document.getElementById('mInput').focus(), 300);
+  track('tool_open', { tool: key });
+}
+
+function openHoro(sign, sym) {
+  const readings = HORO[sign] || ['The stars are offline. Mercury has blocked your number.'];
+  const rng = seedRandom(sign + new Date().toDateString());
+  const r = readings[rng(readings.length)];
+  currentResult = { label: sign + ' Horoscope', head: sym + ' ' + sign.toUpperCase(), body: r };
+  document.getElementById('mLabel').textContent = 'horoscope.' + sign.toLowerCase();
+  document.getElementById('mTitle').textContent = sym + ' ' + sign.toUpperCase();
+  document.getElementById('mSub').textContent   = 'Mercury says this is your reading for today. It\'s always Mercury.';
+  document.getElementById('mInput').style.display = 'none';
+  document.getElementById('mGo').style.display    = 'none';
+  document.getElementById('progWrap').classList.remove('show');
+  document.getElementById('rHead').textContent = sym + ' ' + sign;
+  document.getElementById('rBody').innerHTML = r.replace(/\n/g, '<br>');
+  document.getElementById('mResult').classList.add('show');
+  document.getElementById('overlay').classList.add('open');
+  track('horoscope', { sign });
+}
+
+function runTool() {
+  const t = TOOLS[currentTool];
+  if (!t) return;
+  const val = document.getElementById('mInput').value.trim() || 'Anonymous';
+  const go = document.getElementById('mGo');
+  const prog = document.getElementById('progWrap');
+  const bar  = document.getElementById('progBar');
+  go.disabled = true;
+  go.textContent = 'AI thinking... 🤖';
+  prog.classList.add('show');
+  bar.style.width = '0%';
+  let p = 0;
+  const iv = setInterval(() => {
+    p += Math.floor(Math.random()*18) + 4;
+    if (p >= 100) {
+      p = 100;
+      clearInterval(iv);
+      bar.style.width = '100%';
+      setTimeout(() => {
+        const res = t.fn(val);
+        currentResult = { label: t.title, head: res.h, body: res.b };
+        document.getElementById('rHead').textContent = res.h;
+        document.getElementById('rBody').innerHTML = res.b.replace(/\n/g, '<br>');
+        document.getElementById('mResult').classList.add('show');
+        prog.classList.remove('show');
+        go.disabled = false;
+        go.textContent = '🔄 Try Again';
+        rain();
+        toast('Result Ready 🫠', 'Screenshot and send to the group chat.');
+        track('tool_result', { tool: currentTool });
+      }, 250);
+    } else {
+      bar.style.width = p + '%';
+    }
+  }, 90);
+}
+
+function closeModal() { document.getElementById('overlay').classList.remove('open'); }
+function closeOverlay(e) { if (e.target.id === 'overlay') closeModal(); }
+
+// Result sharing
+function resultWA() {
+  if (!currentResult) return;
+  const txt = `🫠 ghapla.in just told me:\n${currentResult.label}\n${currentResult.head}\n${currentResult.body.substring(0,140)}...\ncheck yours: ghapla.in`;
+  window.open('https://wa.me/?text=' + encodeURIComponent(txt), '_blank');
+  track('share_result_wa');
+}
+function resultTW() {
+  if (!currentResult) return;
+  const txt = `ghapla.in just diagnosed me 🫠\n${currentResult.head}\n\nghapla.in\n\n#Ghapla`;
+  window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(txt), '_blank');
+  track('share_result_tw');
+}
+function resultCopy() {
+  if (!currentResult) return;
+  navigator.clipboard.writeText(`${currentResult.label}\n${currentResult.head}\n${currentResult.body}\n\nFrom: Ghapla.in 🫠`).then(() => {
+    toast('Copied! 📋', 'Paste it in every group chat immediately.');
+  });
+  track('share_result_copy');
+}
+
+// ── Feed data ──
+const FEED = [
+  { tag:'breaking', label:'Breaking', title:'Person who "just needs 5 minutes" has now been gone for 3 hours. Search parties dispatched.', meta:['2 min','9.2K reactions','💀 Relatable'] },
+  { tag:'viral',    label:'Viral',    title:'Man finishes 8-season show in 4 days, immediately starts it again "to catch the details"', meta:['3 min','14K reactions','📺 Valid'] },
+  { tag:'tech',     label:'Tech',     title:'LinkedIn bro raises $0, has 14 titles on his profile, posts daily about "the grind"', meta:['4 min','27K reactions','💸 Classic'] },
+  { tag:'culture',  label:'Culture',  title:'Person enters villain arc, comes out the other side as a better person. Villain arc vindicated.', meta:['2 min','51K reactions','😈 Arc Complete'] },
+  { tag:'viral',    label:'Viral',    title:'Mercury retrograde blamed for bad text, breakup, missed deadline, and burnt toast simultaneously', meta:['1 min','72K reactions','🔮 Valid'] },
+  { tag:'culture',  label:'Culture',  title:'"New year new me" person spotted in December doing identical things to last December', meta:['instant','94K reactions','🔄 Annual Event'] },
+  { tag:'breaking', label:'Breaking', title:'Gym bro spends more on supplements than rent. Body unchanged. Confidence unchanged. Posting unchanged.', meta:['2 min','38K reactions','💪 Science'] },
+  { tag:'viral',    label:'Viral',    title:'Person goes to therapy once, immediately starts diagnosing everyone around them', meta:['2 min','1.1L reactions','🛋️ Growth'] },
+  { tag:'tech',     label:'Tech',     title:'Tech bro explains basic concept to woman who invented it. She listens politely.', meta:['instant','1.4L reactions','👁️ Accurate'] },
+  { tag:'culture',  label:'Culture',  title:'Horoscope said "big changes coming." Person rearranged furniture. Called it a transformation.', meta:['2 min','88K reactions','♈ Growth'] },
+  { tag:'breaking', label:'Breaking', title:'Person starts 14 self-improvement podcasts simultaneously. Improves nothing. Feels productive.', meta:['3 min','2.8L reactions','🎧 The Journey'] },
+  { tag:'viral',    label:'Viral',    title:'"I am the problem" person realises this, does nothing about it, posts about the realisation', meta:['instant','3.2L reactions','🫠 Accurate'] },
+];
+let feedIdx = 0;
+function loadFeed() {
+  const container = document.getElementById('feedContainer');
+  const batch = FEED.slice(feedIdx % FEED.length, (feedIdx % FEED.length) + 4);
+  batch.forEach(item => {
+    const el = document.createElement('div');
+    el.className = 'feed-item';
+    el.innerHTML = `
+      <span class="feed-tag ${item.tag}">${item.label}</span>
+      <div class="feed-body">
+        <div class="feed-title">${item.title}</div>
+        <div class="feed-meta">${item.meta.map(m=>`<span>${m}</span>`).join('')}</div>
+      </div>
+      <button class="feed-share" onclick="event.stopPropagation();shareFeedItem('${encodeURIComponent(item.title)}')">Share 📤</button>
+    `;
+    el.addEventListener('click', () => {
+      rain();
+      toast('Chaos Reader 📰', 'You clicked a headline. The ghapla deepens.');
+      track('feed_click');
+    });
+    container.appendChild(el);
+  });
+  feedIdx += 4;
+  track('load_more_feed');
+}
+loadFeed(); loadFeed();
+
+function shareFeedItem(enc) {
+  const txt = decodeURIComponent(enc) + '\n\nghapla.in 🫠 #Ghapla #IndianMemes';
+  window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(txt), '_blank');
+  track('share_feed_item');
+}
+
+// ── Share functions ──
+function shareNow() {
+  if (navigator.share) {
+    navigator.share({ title: 'Ghapla 🫠', text: 'The internet\'s most unhinged website', url: 'https://ghapla.in' });
+    track('native_share');
+  } else { shareWA(); }
+}
+function shareWA() {
+  window.open('https://wa.me/?text=' + encodeURIComponent('bro open this site right now 🫠 ghapla.in — check your aura score, get roasted, find your villain arc. send it to someone who needs to waste time'), '_blank');
+  track('share_wa');
+}
+function shareTW() {
+  window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent('found the most unhinged website on the internet 🫠\nghapla.in\n\njust calculated my villain arc and it was accurate\n#Ghapla'), '_blank');
+  track('share_tw');
+}
+function shareIG() {
+  copyURL();
+  setTimeout(() => alert('Link copied! Paste in your Instagram bio or story 📸\nghapla.in'), 200);
+  track('share_ig');
+}
+function copyURL() {
+  navigator.clipboard.writeText('https://ghapla.in').then(() => {
+    toast('Copied! 🔗', 'Paste it everywhere. Do it now.');
+  }).catch(() => { prompt('Copy this:', 'https://ghapla.in'); });
+  track('copy_url');
+}
+
+// ── Random background chaos (every 75 seconds) ──
+const bgChaos = [
+  ['⚠️ System Alert', 'Your villain arc is 67% complete. Progress noted.'],
+  ['🔮 Cosmic Update', 'Mercury retrograde blamed for your current situation. Correct.'],
+  ['📊 Live Stats', 'You are in the bottom 3% of productivity. Top 3% of chaos energy.'],
+  ['💡 Pro Tip', 'Send this to someone who needs their aura score checked immediately.'],
+  ['🧿 Diagnosis', 'Chronically online levels: elevated. Touch grass when convenient.'],
+  ['📱 Breaking', 'Your Notes app has 47 unfinished ideas. Pick one. Any one.'],
+  ['☕ Health Check', 'You\'ve been staring at a screen for a while. Water. Now.'],
+  ['🚩 Alert', 'Red flag detected in your recent decision-making. It\'s fine. Probably.'],
+];
+let bgIdx = 0;
+setInterval(() => {
+  const b = bgChaos[bgIdx % bgChaos.length];
+  toast(b[0], b[1]);
+  bgIdx++;
+  track('bg_chaos_popup');
+}, 75000);
+
+// ── Scroll tracking ──
+let maxScroll = 0;
+window.addEventListener('scroll', () => {
+  const pct = Math.round((scrollY / (document.body.scrollHeight - innerHeight)) * 100);
+  if (pct > maxScroll) {
+    maxScroll = pct;
+    if (maxScroll === 25) track('scroll_25pct');
+    if (maxScroll === 50) { toast('Halfway There 🔥', '50% through the ghapla. No escape.'); track('scroll_50pct'); }
+    if (maxScroll === 90) { toast('Complete Ghapla 💯', 'You read everything. Please go outside.'); track('scroll_90pct'); }
+  }
+}, { passive: true });
+
+// ── Keyboard easter egg (Konami Code) ──
+let kb = '';
+document.addEventListener('keydown', e => {
+  kb = (kb + e.key).slice(-38);
+  if (kb === 'ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba') {
+    rain('🫠🔥💀⚡🎉🏏☕🔮💸😤💪🧠');
+    toast('KONAMI UNLOCKED 🕹️', 'Maximum ghapla mode. You are a legend.');
+  }
+});
+</script>
+</body>
+</html>
